@@ -1,13 +1,14 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { FaFacebookF, FaInstagram, FaLinkedinIn  } from 'react-icons/fa'
+import miller from '../../public/images/Miller-3.jpg'
 
 const Main = () => {
   return (
     <div id='main'>
       <img 
       className='w-full h-screen object-cover object-left' 
-      src="https://scontent.feoh8-1.fna.fbcdn.net/v/t39.30808-6/333560903_219365007151084_1032528904234182839_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEh13-ZrdwGHRodnL_cWZG-aCf15kGQru9oJ_XmQZCu7-b1O1ya1avclVSAOlDIAXw&_nc_ohc=43lalG7sZwUAX97ZxyJ&_nc_oc=AQmpFrUJbUtz8oXuBe5yPQnugIJiC3Fo3Bk8xqE6iicRG7B2CwdCnvbAXlUk_ICfxkA&_nc_ht=scontent.feoh8-1.fna&oh=00_AfCYh2eCd-kkYgTFK6CJvmO_r0mKaRVp1Km-M08CZoQigQ&oe=640D1C5A" 
+      src={miller} 
       alt="/" 
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
