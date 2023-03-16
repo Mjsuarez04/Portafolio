@@ -1,18 +1,32 @@
 import React from 'react'
+import './styles/work.css'
+import data from '../utils/about'
 
-const WorkItem = ({ year, title, duration, details }) => {
+
+const WorkItem = () => {
+
+  const dataItem = data
+
   return (
-    <ol className='flex flex-col md:flex-row relative border-l border.stone.200'>
-      <li className='mb-10 ml-4'>
-        <div className='absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border-white'/>
-        <p className='flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm'>
-          <span className='inline-block px-2 py-1 font-semibold text-white bg-[#001b5e] rounded-md'>{year}</span>
-          <span className='text-lg font-semibold text-[#001b5e]'>{title}</span>
-          <span className='my-1 text-sm font-normal leading-none text-stone-400'>{duration}</span>
-        </p>
-        <p className='my-2 text-base font-normal text-stone-500'>{details}</p>
-      </li>
-    </ol>
+    // <div>
+    //   <div className='mb-10 ml-4'>
+    //     <div className='flex flex-wrap gap-4 flex-row items-center justify-center text-xs md:text-sm'>
+    //       <img className='w-5 h-5' src={HtmlIcon} alt="" />
+    //       <img className='w-5 h-5' src={CssIcon} alt="" />
+    //       <span className='inline-block px-2 py-1 font-semibold text-white bg-[#001b5e] rounded-md'>Html</span>
+    //     </div>
+    //   </div>
+    // </div>
+    <div className='container'>
+      {
+        dataItem.map(item => (
+          <div className='container__2' key={item.title}>
+            <img className='img' src={item.icon} alt="" />
+            <span>{item.title}</span>
+          </div>
+        ))
+      }
+    </div>
   )
 }
 

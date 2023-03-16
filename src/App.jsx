@@ -1,18 +1,15 @@
-import Sidenav from './components/Sidenav'
-import Main from './components/Main'
-import Projects from './components/Projects'
-import Work from './components/Work'
-import Contact from './components/Contact'
+import { Route, Routes } from 'react-router'
+import ProjectInfo from './components/ProjectInfo'
+import Home from './components/Home'
 
 function App() {
 
   return (
     <div className="App">
-      <Sidenav />
-      <Main />
-      <Work />
-      <Projects />
-      <Contact />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/projectInfo' element={<ProjectInfo />} />
+      </Routes>
     </div>
   )
 }
