@@ -22,7 +22,7 @@ const WorkItem = () => {
         dataItem.map(item => (
           <div className='container__2' key={item.title}>
             <img className='img' src={item.icon} alt="" />
-            <span>{item.title}</span>
+            <span className='inline-block px-2 py-1 font-semibold text-white bg-[#001b5e] rounded-md'>{item.title}</span>
           </div>
         ))
       }

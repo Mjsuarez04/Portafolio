@@ -31,9 +31,9 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaGithub className="cursor-pointer" size={20} />
-            <FaInstagram className="cursor-pointer" size={20} />
-            <FaLinkedinIn className="cursor-pointer" size={20} />
+            <a href="https://github.com/"><FaGithub className="cursor-pointer" size={20} /></a>
+            <a href="https://www.instagram.com/millerjsuarez/"><FaInstagram className="cursor-pointer" size={20} /></a> 
+            <a href="https://www.linkedin.com/in/miller-suarez-559451a3/"><FaLinkedinIn className="cursor-pointer" size={20} /></a>  
           </div>
         </div>
       </div>

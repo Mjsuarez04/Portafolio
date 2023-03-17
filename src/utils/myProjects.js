@@ -1,61 +1,65 @@
-import ecommerce from '../assets/e-commerceImg.png'
-import pokedex from '../assets/pokedexImg.png'
-import rickAndMorty from '../assets/rick and morty.png'
-import weatherApp from '../assets/weaderAppImg.png'
+import ecommerce from "../assets/e-commerceImg.png";
+import pokedex from "../assets/pokedexImg.png";
+import rickAndMorty from "../assets/rick and morty.png";
+import weatherApp from "../assets/weaderAppImg.png";
 
 const projects = [
   {
     id: 1,
-    img: ecommerce, 
-    proyecto: "Ecommerce",
-    videos: {},
-    API: "si",
+    img: ecommerce,
+    projectName: "Ecommerce",
+    typeProject: "practice",
+    imgs: {},
+    API: "yes",
     icons: ["boxicons"],
-    tecnologias: ["react"],
-    librerias: ["axios", "redux", "react-hooks-form","react-router-dom", "thunk"],
-    resumen: "Ecommerce completo donde puedes registrar usuario, agregar productos al carrito y comprar.",
-    detalles: "Proyecto realizado para consumir un API completa, donde afianzamos nuestro conocimiento en GitHub y trabajo en quipo. Fue un proyecto bastante complejo porque pusimos en practica conceptos avanzados de peticiones asincrónicas que realizamos para poder obtener los productos que fueron mostrados. Además implementamos conceptos de rutas protegidas con el Token Bearer. Logramos cumplir con el 100% del proyecto.",
-    url: "https://ms-shop.netlify.app"
+    technologies: ["react"],
+    bookstores: ["axios ", "redux ", "react-hooks-form ", "react-router-dom ", "thunk "],
+    summary: "Complete ecommerce where you can register a user, add products to the cart and buy.",
+    details: "Project carried out to consume a complete API, where we streng then our knowledge in GitHub and teamwork. It was quite a complex project because we put into practice advanced concepts of asynchronous requests that we made in order to obtain the products that were displayed. We also implement concepts of protected routes with the Token Bearer. We managed to complete 100% of the project.",
+    url: "https://ms-shop.netlify.app",
   },
   {
     id: 2,
     img: pokedex,
-    proyecto: "Pokedex",
-    videos: {},
-    API: "si",
+    projectName: "Pokedex",
+    typeProject: "practice",
+    imgs: {},
+    API: "yes",
     icons: ["boxicons"],
-    tecnologias: ["react"],
-    librerias: ["axios", "redux", "react-hooks-form","react-router-dom"],
-    resumen: "Sitio web que muestra toda la info de los pokemones y los filtra por su tipo.",
-    detalles: "Proyecto realizado para poner en práctica peticiones asincrónicas y estados globales utilizando redux. Añadiendo el dark-mode intenté darle un toque más complejo y completo al proyecto.",
-    url: ""
+    technologies: ["react"],
+    bookstores: ["axios", "redux", "react-hooks-form", "react-router-dom"],
+    summary: "Web site that shows all the information of the pokemons and filters them by their type.",
+    details: "Project made to implement asynchronous requests and global states using redux. Adding the dark-mode I tried to give a more complex and complete touch to the project.",
+    url: "https://mspokedex.netlify.app",
   },
   {
     id: 3,
-    img: rickAndMorty, 
-    proyecto: "Rick and Morty App",
-    videos: {},
-    API: "si",
+    img: rickAndMorty,
+    projectName: "Rick and Morty App",
+    typeProject: "practice",
+    imgs: {},
+    API: "yes",
     icons: ["boxicons"],
-    tecnologias: ["react"],
-    librerias: ["axios"],
-    resumen: "Sitio web que muestra toda la info de la serie animada Rick&Morty. Cuenta con Dark Mode.",
-    detalles: "Proyecto realizado en equipo de 4 personas para afianzar conocimientos en GitHub y trabajo en equipo. Con este proyecto reforzamos conocimiento de peticiones asincrónicas",
-    url: ""
+    technologies: ["react"],
+    bookstores: ["axios"],
+    summary: "Web site that shows all the information on the animated series Rick & Morty.",
+    details: "ProyeProject carried out in a team of 3 people to strengthen knowledge in GitHub and teamwork. With this project we reinforce knowledge of asynchronous request.",
+    url: "https://hilarious-dango-45fd34.netlify.app",
   },
   {
     id: 4,
-    img: weatherApp, 
-    proyecto: "Weather app",
-    videos: {},
-    API: "si",
+    img: weatherApp,
+    projectName: "Weather app",
+    typeProject: "practice",
+    imgs: {},
+    API: "yes",
     icons: ["boxicons"],
-    tecnologias: ["react"],
-    librerias: ["axios"],
-    resumen: "Sitio web que muestra la temperatura y estado de clima dependiendo de la ubicación del usuario.",
-    detalles: "Proyecto realizado para reforzar conocimiento en peticiones asincrónicas.",
-    url: ""
+    technologies: ["react"],
+    bookstores: ["axios"],
+    summary: "Web site that shows the temperature and weather status depending on the user's location.",
+    details: "Project carried out to reinforce knowledge in asynchronous requests.",
+    url: "https://entregable2mjsc-weatherapp.netlify.app",
   },
 ];
 
-export default projects
+export default projects;

@@ -29,6 +29,16 @@ const data = [
     icon: "./images/Redux-icon.png",
     title: "Redux",
   },
+  {
+    id: 7,
+    icon: './images/tailwind.svg',
+    title: 'Tailwind'
+  },
+  {
+    id: 8,
+    icon: './images/node-js-icon-8.jpg',
+    title: 'Node Js'
+  }
 ];
 
 export default data
