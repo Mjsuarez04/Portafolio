@@ -27,7 +27,7 @@ const projects = [
     API: "yes",
     icons: ["boxicons"],
     technologies: ["react"],
-    bookstores: ["axios", "redux", "react-hooks-form", "react-router-dom"],
+    bookstores: ["axios ", "redux ", "react-hooks-form ", "react-router-dom "],
     summary: "Web site that shows all the information of the pokemons and filters them by their type.",
     details: "Project made to implement asynchronous requests and global states using redux. Adding the dark-mode I tried to give a more complex and complete touch to the project.",
     url: "https://mspokedex.netlify.app",
